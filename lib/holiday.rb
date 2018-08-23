@@ -61,6 +61,7 @@ end
 
 def format_symbol(symbol)
   s = symbol.to_s
+  s_array = s.split("_")
   s.capitalize
 end
 
