@@ -63,7 +63,7 @@ def format_symbol(symbol)
   s = symbol.to_s
   s_array = s.split("_")
   caps_array = s_array.collect { |e| e.capitalize }
-  caps_array.join
+  caps_array.join(" ")
 end
 
 def all_supplies_in_holidays(holiday_hash)
