@@ -61,6 +61,7 @@ end
 
 def format_symbol(symbol)
   s = symbol.to_s
+  s.capitalize
 end
 
 def all_supplies_in_holidays(holiday_hash)
